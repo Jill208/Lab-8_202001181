@@ -123,7 +123,7 @@ public class Boa {
 }
 ```
 
-## Here is an illustration of a fresh test case for the lengthInInches() method in the BoaTest class:
+#### Here is an illustration of a fresh test case for the lengthInInches() method in the BoaTest class:
 ```
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
