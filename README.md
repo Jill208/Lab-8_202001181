@@ -123,5 +123,30 @@ public class Boa {
 }
 ```
 
+Here is an illustration of a fresh test case for the lengthInInches() method in the BoaTest class:
+```
+import static org.junit.Assert.assertEquals;
+import org.junit.Before;
+import org.junit.Test;
+
+public class BoaTest {
+    private Boa jen;
+    private Boa ken;
+
+    @Before
+    public void setUp() throws Exception {
+        jen = new Boa("Jennifer", 2, "grapes");
+        ken = new Boa("Kenneth", 3, "granola bars");
+    }
+
+    @Test
+    public void testLengthInInches() {
+        assertEquals(24, jen.lengthInInches());
+        assertEquals(36, ken.lengthInInches());
+    }
+}
+```
+
+This new test case verifies that each of the Boa objects created in the setUp() function returns the expected value when the lengthInInches() method is called on it. The expected number and the actual value returned by the lengthInInches() method are compared using the assertEquals() method. This test function should be executed by JUnit, according to the @Test annotation.
 
 
