@@ -1,4 +1,9 @@
 # Lab-8_202001181
+## Software Engineering
+
+    Name: Jill Chaudhary
+    Student ID: 202001181
+    Lab: 08
 
 ### (1) Create a new Eclipse project, and within the project create a package.
 
