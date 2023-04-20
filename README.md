@@ -91,7 +91,37 @@ public void testFitsInCage() {
 ![image](https://user-images.githubusercontent.com/83700057/233322459-1d2a45e7-4b98-4a90-a4a0-e2e7a16ef72b.png)
 
 
+(7)The updated Boa class with the new lengthInInches() method is shown below:
 
+```
+public class Boa {
+    private String name;
+    private int length; // the length of the boa, in feet
+    private String favoriteFood;
+
+    public Boa(String name, int length, String favoriteFood) {
+        this.name = name;
+        this.length = length;
+        this.favoriteFood = favoriteFood;
+    }
+
+    // returns true if this boa constrictor is healthy
+    public boolean isHealthy() {
+        return this.favoriteFood.equals("granola bars");
+    }
+
+    // returns true if the length of this boa constrictor is
+    // less than the given cage length
+    public boolean fitsInCage(int cageLength) {
+        return this.length < cageLength;
+    }
+
+    // produces the length of the Boa in inches
+    public int lengthInInches() {
+        return this.length * 12;
+    }
+}
+```
 
 
 
