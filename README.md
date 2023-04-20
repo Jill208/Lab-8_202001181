@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/83700057/233320595-46f50acf-1163-468a-a99c-5e94c7f8173e.png)
 
-**(2) Test method to test the behaviour of the Boa class :**
+### (2) Test method to test the behaviour of the Boa class :
 
 ```
 import org.junit.Assert;
@@ -36,7 +36,7 @@ public class BoaTest {
 ![image](https://user-images.githubusercontent.com/83700057/233320656-3dd3da9f-e6b2-4c4d-b3d9-be3e2e79cd7e.png)
 
 
-**(3) Modified setUp() method in the BoaTest class :**
+### (3) Modified setUp() method in the BoaTest class :
 
 ```
 public class BoaTest {
@@ -55,7 +55,7 @@ public class BoaTest {
 
 ![image](https://user-images.githubusercontent.com/83700057/233320952-fcb39998-3af2-46b7-bdaf-2cab14569952.png)
 
-**(4) Modified testIsHealthy() method in the BoaTest class :**
+### (4) Modified testIsHealthy() method in the BoaTest class :
 
 ```
 @Test
@@ -69,7 +69,7 @@ public void testIsHealthy() {
 
 ```
 
-**(5) Modified testFitsInCage() method in the BoaTest class :**
+### (5) Modified testFitsInCage() method in the BoaTest class :
 ```
 @Test
 public void testFitsInCage() {
@@ -86,12 +86,12 @@ public void testFitsInCage() {
 ```
 
 
-**(6) Running Testcases**
+### (6) Running Testcases
 
 ![image](https://user-images.githubusercontent.com/83700057/233322459-1d2a45e7-4b98-4a90-a4a0-e2e7a16ef72b.png)
 
 
-**(7)The updated Boa class with the new lengthInInches() method is shown below:**
+### (7)The updated Boa class with the new lengthInInches() method is shown below:
 
 ```
 public class Boa {
@@ -123,7 +123,7 @@ public class Boa {
 }
 ```
 
-**Here is an illustration of a fresh test case for the lengthInInches() method in the BoaTest class:**
+## Here is an illustration of a fresh test case for the lengthInInches() method in the BoaTest class:
 ```
 import static org.junit.Assert.assertEquals;
 import org.junit.Before;
