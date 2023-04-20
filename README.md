@@ -1,6 +1,6 @@
 # Lab-8_202001181
 
-## (1) Create a new Eclipse project, and within the project create a package.
+### (1) Create a new Eclipse project, and within the project create a package.
 
 ![image](https://user-images.githubusercontent.com/83700057/233320595-46f50acf-1163-468a-a99c-5e94c7f8173e.png)
 
