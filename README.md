@@ -68,3 +68,29 @@ public void testIsHealthy() {
 }
 
 ```
+
+(5) Modified testFitsInCage() method in the BoaTest class :
+```
+@Test
+public void testFitsInCage() {
+    // Test for jen
+    assertFalse(jen.fitsInCage(1)); // cage length is less than length of boa
+    assertTrue(jen.fitsInCage(2)); // cage length is equal to length of boa
+    assertTrue(jen.fitsInCage(3)); // cage length is greater than length of boa
+
+    // Test for ken
+    assertFalse(ken.fitsInCage(2)); // cage length is less than length of boa
+    assertTrue(ken.fitsInCage(3)); // cage length is equal to length of boa
+    assertTrue(ken.fitsInCage(4)); // cage length is greater than length of boa
+}
+```
+
+
+(6) Running Testcases
+
+<h1> jill</h1>
+
+
+
+
+
